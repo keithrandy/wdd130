@@ -1,0 +1,39 @@
+main {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+aside {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 100 auto rgb(201, 178, 149);
+    padding: 0 auto;
+    background-color: rgb(58, 214, 162);
+    color: black
+}
+
+aside h2 {
+    margin: 100 auto;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
