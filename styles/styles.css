@@ -1,5 +1,5 @@
 header {
-    max-width: 500;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -18,14 +18,14 @@ main img {
 aside {
     max-width: 500px;
     margin: 0 auto;
-    border: 100 auto rgb(201, 178, 149);
-    padding: 0 auto;
+    border: 0 auto rgb(201, 178, 149);
+    padding: 0px;
     background-color: rgb(58, 214, 162);
     color: black
 }
 
 aside h2 {
-    margin: 100 auto;
+    margin: 0 auto;
 }
 
 aside img {
