@@ -18,7 +18,7 @@ main img {
 aside {
     max-width: 500px;
     margin: 0 auto;
-    border: 0 auto rgb(201, 178, 149);
+    border: rgb(201, 178, 149);
     padding: 0px;
     background-color: rgb(58, 214, 162);
     color: black
