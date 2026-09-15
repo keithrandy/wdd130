@@ -22,17 +22,14 @@ main img {
 }
 
 aside {
-    position: relative;
     max-width: 20rem auto;
     text-align: center;
 }
 
 aside h2 {
     margin: 0 auto;
-    position: absolute;
-    bottom: 350px;
-    right: 420px;
-    top: 520px;
+    position: relative;
+    top: 50px;
     color: rgb(233, 255, 137);
 
 }
