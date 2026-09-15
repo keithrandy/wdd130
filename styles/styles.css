@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     max-width: 500px;
     margin: 0 auto;
@@ -5,7 +11,7 @@ header {
 
 main {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 5rem auto;
 }
 
 main img {
@@ -16,16 +22,19 @@ main img {
 }
 
 aside {
-    max-width: 500px;
-    margin: 0 auto;
-    border: rgb(201, 178, 149);
-    padding: 0px;
-    background-color: rgb(58, 214, 162);
-    color: black
+    position: relative;
+    max-width: 20rem auto;
+    text-align: center;
 }
 
 aside h2 {
     margin: 0 auto;
+    position: absolute;
+    bottom: 350px;
+    right: 420px;
+    top: 520px;
+    color: rgb(233, 255, 137);
+
 }
 
 aside img {
@@ -45,7 +54,7 @@ footer {
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 100px auto;
 }
 
 nav a {
@@ -59,9 +68,19 @@ h1 {
 }
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+}
+
+.box {
+    margin: 1rem auto;
+    padding: 1rem auto;
+    border: 1px saddlebrown;
+    background-color: rgb(37, 255, 190);
+    color: black;
+
 }
