@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #0b4f6c;
-    --secondary-color: #01baef;
-    --secondary-color-rgb: 1, 186, 239;
+    --primary-color: #ffbca1;
+    --secondary-color: #1689a8;
+    --secondary-color-rgb: 10, 35, 35;
     --accent1-color: #000000;
     --accent2-color: #f4d35e;
 
@@ -17,11 +17,13 @@
 
 p {
     font-size: 24px;
+    color: var(--accent2-color)
 }
 
 a {
-    font-size: 50px;
+    font-size: 25px;
     gap: 5px;
+    color: var(--primary-color)
 }
 
 body {
