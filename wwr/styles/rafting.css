@@ -36,13 +36,11 @@ footer {
     background-color: var(--secondary-color);
     width: 50%;
     margin: 20px auto;
-    content: 50px;
-
 }
 
 header,
 img {
-    width: 50% auto;
+    width: 50%;
     height: auto;
 }
 
