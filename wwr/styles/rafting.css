@@ -53,21 +53,25 @@ article {
     top: 200px;
     left: 2%;
     right: 20px;
-
+    float: right;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
 
     padding: 10px;
-    background-color: rgba(11, 79, 108, 0.8);
-    color: white;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color)
 }
 
 .hero > img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero article img {
+    float: right;
 }
 
 h1 {
