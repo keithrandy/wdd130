@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #ffbca1;
-    --secondary-color: #1689a8;
-    --secondary-color-rgb: 22, 137, 168;
+    --primary-color: #0b4f6c;
+    --secondary-color: #0b4f6c;
+    --secondary-color-rgb: 11, 79, 108;
     --accent1-color: #000000;
     --accent2-color: #f4d35e;
 
@@ -63,7 +63,10 @@ nav a:hover {
 h1,
 h2 {
     font-family: var(--heading-font);
+    color: var(--primary-color);
 }
+
+h2 {}
 
 .hero {
     position: relative;
