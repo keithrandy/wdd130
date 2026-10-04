@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Rafting River Fighter</title>
+    <meta name="description" content="Contact about Raftint River Fighters">
+    <meta name="author" content="Keith Randy Rosales">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/rafting.jpg" alt="Rafting River Fighter logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+
+        <section class="contact-info">
+            <h2>Rafting River Fighter</h2>
+            <p><strong>Address:</strong> Cebu City, Philippines</p>
+            <p><strong>Phone:</strong> +63 912 345 6789</p>
+            <p><strong>Email:</strong> info@raftingriverfighter.com</p>
+
+            <iframe src="https://www.google.com/maps?q=Cebu%20City%20Philippines&output=embed"
+              width="600" height="300" loading="lazy" title="Rafting River Fighter Location">
+            </iframe>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+
+            <form>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+
+                    <label>
+                        <input type="radio" name="purpose" value="general" required>
+                        General Inquiry
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <label class="newsletter">
+                    <input type="checkbox" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/jack.jpg" alt="Rafting guide">
+                    <figcaption>Lead Rafting Guide</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/mark.jpg" alt="Customer service employee">
+                    <figcaption>Customer Service Manager</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/bobby.jpg" alt="Safety instructor">
+                    <figcaption>Safety Instructor</figcaption>
+                </figure>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>© 2026 | Rafting River Fighter | Keith Randy Rosales</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/" target="_blank">
+
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/insta.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+                <img src="images/linked.png" alt="LinkedIn">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

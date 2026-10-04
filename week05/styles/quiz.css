@@ -1,0 +1,46 @@
+main {
+    max-width: 800;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: rgb(201, 199, 199);
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    border-radius: .5rem;
+}
+
+.exampleCode {
+    background-color: rgb(54, 54, 54);
+    color: whitesmoke;
+    margin-left: 2rem;
+    margin-right: 35rem;
+    padding-left: .25rem;
+    border-radius: .5rem;
+
+}
+
+button {
+    background-color: rgb(122, 122, 231);
+    color: white;
+    border-radius: .5rem;
+}
+
+label,
+input,
+textarea,
+select,
+button {
+    margin: .5rem;
+}
+
+span {
+    color: navy;
+}
