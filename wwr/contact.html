@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Rafting River Fighter</title>
-    <meta name="description" content="Contact about Raftint River Fighters">
+    <title>Contact us | Rafting River Fighter</title>
+    <meta name="description"
+      content="Contact aboContact Rafting River Fighter to ask questions about rafting trips, reservations, safety, schedules, and customer service.">
     <meta name="author" content="Keith Randy Rosales">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -38,41 +39,36 @@
         <section class="contact-form">
             <h2>Send Us a Message</h2>
 
-            <form>
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname" required>
+            <fieldset>
+                <legend>Purpose of Message:</legend>
 
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="radio" id="general" name="purpose" value="general" required>
+                <label for="general">General Inquiry</label>
 
-                <fieldset>
-                    <legend>Purpose of Message:</legend>
+                <input type="radio" id="reservation" name="purpose" value="reservation">
+                <label for="reservation">Reservation Question</label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="general" required>
-                        General Inquiry
-                    </label>
+                <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                <label for="suggestion">Website Suggestion</label>
+            </fieldset>
 
-                    <label>
-                        <input type="radio" name="purpose" value="reservation">
-                        Reservation Question
-                    </label>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
 
-                    <label>
-                        <input type="radio" name="purpose" value="suggestion">
-                        Website Suggestion
-                    </label>
-                </fieldset>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Please subscribe me to the monthly newsletter</label>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="6" required></textarea>
+            <button type="submit">Send Message</button>
 
-                <label class="newsletter">
-                    <input type="checkbox" name="newsletter">
-                    Please subscribe me to the monthly newsletter
-                </label>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
 
-                <button type="submit">Send Message</button>
+            <label class="newsletter">
+                <input type="checkbox" name="newsletter">
+                Please subscribe me to the monthly newsletter
+            </label>
+
+            <button type="submit">Send Message</button>
             </form>
         </section>
 
@@ -81,12 +77,12 @@
 
             <div class="employee-grid">
                 <figure>
-                    <img src="images/jack.jpg" alt="Rafting guide">
+                    <img src="images/jack.jfif" alt="Rafting guide">
                     <figcaption>Lead Rafting Guide</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/mark.jpg" alt="Customer service employee">
+                    <img src="images/bob.jfif" alt="Customer service employee">
                     <figcaption>Customer Service Manager</figcaption>
                 </figure>
 
