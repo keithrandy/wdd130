@@ -37,39 +37,39 @@
         </section>
 
         <section class="contact-form">
-            <h2>Send Us a Message</h2>
+            <from>
+                <h2>Send Us a Message</h2>
 
-            <fieldset>
-                <legend>Purpose of Message:</legend>
+                <label for="name"> Name: </label>
+                <input type="text" id="name" name="name">
 
-                <input type="radio" id="general" name="purpose" value="general" required>
-                <label for="general">General Inquiry</label>
+                <label for="email"> Email: </label>
+                <input type="text" id="email" name="email">
 
-                <input type="radio" id="reservation" name="purpose" value="reservation">
-                <label for="reservation">Reservation Question</label>
+                <fieldset>
 
-                <input type="radio" id="suggestion" name="purpose" value="suggestion">
-                <label for="suggestion">Website Suggestion</label>
-            </fieldset>
+                    <legend>Purpose of Message:</legend>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="6" required></textarea>
+                    <input type="radio" id="general" name="purpose" value="general" required>
+                    <label for="general">General Inquiry</label>
 
-            <input type="checkbox" id="newsletter" name="newsletter">
-            <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label>
 
-            <button type="submit">Send Message</button>
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </fieldset>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="6" required></textarea>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
 
-            <label class="newsletter">
-                <input type="checkbox" name="newsletter">
-                Please subscribe me to the monthly newsletter
-            </label>
+                <label class="newsletter">
+                    <input type="checkbox" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>
 
-            <button type="submit">Send Message</button>
-            </form>
+                <button type="submit">Send Message</button>
+                </form>
         </section>
 
         <section class="employees">
