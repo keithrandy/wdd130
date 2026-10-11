@@ -25,7 +25,11 @@ header,
 main,
 footer {
     max-width: 840px;
-    margin: 0 auto;
+    margin: 1rem auto;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
 
 header {
@@ -280,7 +284,9 @@ footer p {
 .home-hero {
     position: relative;
     max-width: 840px;
-    margin: 0 auto;
+    margin: 1rem auto;
+    padding: 0;
+    overflow: hidden;
 }
 
 .home-hero img {
@@ -291,10 +297,15 @@ footer p {
 
 .home-hero h1 {
     position: absolute;
-    top: 40%;
+    top: 45%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
     width: 100%;
-    text-align: center;
+    margin: 0;
     padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
 }
